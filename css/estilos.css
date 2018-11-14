@@ -523,9 +523,5 @@
 }
 
 /*---------------------------------------*/
-@media only screen and (max-width: 400px) {
-    .home {
-        min-height: 630px;
-    }
-}
+
 
