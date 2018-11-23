@@ -383,6 +383,24 @@
     transform: skew(-10deg);
 }
 
+.about__line {
+    display: block;
+    width: 2px;
+    height: 300px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 520px;
+    top: 20px;
+}
+
+.social-contact img {
+  height: 130px;
+}
+
+.social-contact img:hover{ 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
 
 
 /*----------------------------------------------------------------*/
@@ -522,3 +540,5 @@
   padding-top: 40px;
 }
 
+
+/*--------------------*/
