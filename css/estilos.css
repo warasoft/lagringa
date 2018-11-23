@@ -301,6 +301,11 @@
     position: relative;
 }
 
+.nosotros-iconos {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 @media only screen and (max-width: 1200px) {
 }
 
@@ -337,10 +342,6 @@
     background: url("../img/mapa4.jpg");
     background-size: cover;
 
-
-
- 
-
   padding-top: 16.2rem;
   padding-bottom: 13.2rem;
   color: #757575;
@@ -355,9 +356,11 @@
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
+    background: url("../img/nosotros.jpg") fixed no-repeat 50% 50%;
+    background-size: cover;
 }
 
-/* CONTACT*/
+/* CONTACT----------------------------------------------------*/
 .contacto {
   padding-top: 16.2rem;
   padding-bottom: 9rem;
