@@ -294,7 +294,6 @@
 		                </div><br>
 	                    </form>
 				</div>
-				<div class="about__line"></div>
 				<div class="col-md-6" data-aos="fade-left" style="padding: 20px;">
 					<h2 class="subtitulo">Tambien lo podes hacer via Wathsapp, y te respondemos al instante!!!</h2>
 					<br>
@@ -419,6 +418,11 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/main.js"></script>
+    <script>
+	$('.navbar-nav>li>a').on('click', function(){
+    	$('.navbar-collapse').collapse('hide');
+	});
+    </script>
     <script src="js/plugins.js"></script> <!--efecto fade-up etc.-->
 	<script>AOS.init();
 	</script>
