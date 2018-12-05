@@ -295,12 +295,13 @@
 	                    </form>
 				</div>
 				<div class="col-md-6" data-aos="fade-left" style="padding: 20px;">
-					<h2 class="subtitulo">Tambien lo podes hacer via Wathsapp, y te respondemos al instante!!!</h2>
+					<h2 class="subtitulo">Tambien lo podes hacer via Wathsapp, completa tus datos y te respondemos al instante!!!</h2>
 					<br>
-					<a href="https://api.whatsapp.com/send?phone=5493875743068&amp;text=hola,%20qu%C3%A9%20tal?" class="social-contact" target="_blank" itemprop="sameAs">
+					<a class="social-contact" target="_blank" itemprop="sameAs" onClick="copiarDatos()">
 						<img src="img/wasapcontact.png" alt="wasapcontact.png">
 					</a>
 				</div>
+				<textarea id="textToEncode" style="visibility: hidden;"></textarea>
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-12 flay-icon">
@@ -418,6 +419,7 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/enviawasap.js"></script>
     <script>
 	$('.navbar-nav>li>a').on('click', function(){
     	$('.navbar-collapse').collapse('hide');
