@@ -9,7 +9,7 @@ function copiarDatos(){
 
   document.getElementById("textToEncode").innerHTML = texto;
   
-  var url = "https://api.whatsapp.com/send?phone=5491137710839&text="+encodeURIComponent(texto)
+  var url = "https://api.whatsapp.com/send?phone=5493875743068&text="+encodeURIComponent(texto)
 						
   window.open(url);
 }
